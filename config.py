@@ -1,0 +1,2 @@
+BOT_TOKEN = "8709953943:AAGHnnHFqL9YCI0wjnN2eZNr4hxc0i3LdMU"
+CHANNEL_ID = "@armintelligence"   
