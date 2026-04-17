@@ -10,9 +10,9 @@ LLM_DATA = {
     "image": {
         "name": "🖼 Image Generation",
         "tools": [
-            {"name": "GPT Image 1.5", "desc": "OpenAI's image generation model", "url": "https://openai.com"},
-            {"name": "Midjourney v8", "desc": "Most popular image AI tool", "url": "https://midjourney.com"},
-            {"name": "Flux 2", "desc": "Open-source, fast and high quality", "url": "https://blackforestlabs.ai"},
+            {"name": "ChatGPT (DALL·E / GPT-5)", "desc": "Best overall quality and ease of use", "url": "https://openai.com"},
+            {"name": "Midjourney 7.0", "desc": "Most artistic and creative results", "url": "https://midjourney.com"},
+            {"name": "Gemini Image", "desc": "Best for Google users and speed", "url": "https://gemini.google.com"},
         ]
     },
     "automation": {
@@ -42,9 +42,9 @@ LLM_DATA = {
     "code": {
         "name": "💻 Coding",
         "tools": [
-            {"name": "Claude Sonnet 4.6", "desc": "#1 model for writing code", "url": "https://claude.ai"},
-            {"name": "GitHub Copilot", "desc": "AI assistant inside your IDE", "url": "https://github.com/features/copilot"},
-            {"name": "DeepSeek V3", "desc": "Free and powerful coding model", "url": "https://chat.deepseek.com"},
+            {"name": "Cursor", "desc": "Best AI-native IDE for multi-file projects", "url": "https://cursor.sh"},
+            {"name": "Claude Code", "desc": "Best for large codebases and reasoning", "url": "https://claude.ai"},
+            {"name": "GitHub Copilot", "desc": "Best value and universal usage", "url": "https://github.com/features/copilot"},
         ]
     },
     "science": {
@@ -58,17 +58,17 @@ LLM_DATA = {
     "research": {
         "name": "🔍 Research",
         "tools": [
-            {"name": "Perplexity AI", "desc": "Real-time web search with AI", "url": "https://perplexity.ai"},
-            {"name": "Elicit", "desc": "Academic paper research tool", "url": "https://elicit.com"},
-            {"name": "NotebookLM", "desc": "Google's AI research assistant", "url": "https://notebooklm.google.com"},
+            {"name": "Perplexity Pro", "desc": "Best for fast and cited research", "url": "https://perplexity.ai"},
+            {"name": "Claude (Deep Research)", "desc": "Best for deep analysis and writing", "url": "https://claude.ai"},
+            {"name": "Elicit / NotebookLM", "desc": "Best for scientific literature and documents", "url": "https://elicit.com"},
         ]
     },
     "offline": {
         "name": "📴 Offline AI",
         "tools": [
-            {"name": "Ollama", "desc": "Run local LLMs via terminal", "url": "https://ollama.com"},
-            {"name": "LM Studio", "desc": "GUI app for local AI models", "url": "https://lmstudio.ai"},
-            {"name": "Jan", "desc": "Offline ChatGPT alternative", "url": "https://jan.ai"},
+            {"name": "Meta Llama 3.3 8B", "desc": "Best overall balance for local use", "url": "https://ollama.com"},
+            {"name": "Qwen 3 8B / 32B", "desc": "Best for multilingual and coding", "url": "https://ollama.com"},
+            {"name": "Gemma 4 31B", "desc": "Best for creative and reasoning tasks", "url": "https://ollama.com"},
         ]
     },
     "presentation": {
@@ -80,19 +80,19 @@ LLM_DATA = {
         ]
     },
     "money": {
-        "name": "💰 Make Money with AI",
+        "name": "💰 Finance / Money Management",
         "tools": [
-            {"name": "ChatGPT", "desc": "Content, freelance, coaching", "url": "https://chat.openai.com"},
-            {"name": "Midjourney", "desc": "Sell AI art on Etsy", "url": "https://midjourney.com"},
-            {"name": "HeyGen", "desc": "AI avatar video creation", "url": "https://heygen.com"},
+            {"name": "Origin", "desc": "Best AI financial command center", "url": "https://useorigin.com"},
+            {"name": "Monarch Money", "desc": "Best for visibility and budgeting", "url": "https://monarchmoney.com"},
+            {"name": "Claude in Excel", "desc": "Best for financial modeling and analysis", "url": "https://claude.ai"},
         ]
     },
     "voice": {
         "name": "🎙 Voice / Audio",
         "tools": [
-            {"name": "ElevenLabs", "desc": "Most realistic AI voice generator", "url": "https://elevenlabs.io"},
-            {"name": "Fish Audio", "desc": "Fast and free voice generation", "url": "https://fish.audio"},
-            {"name": "PlayHT", "desc": "Podcast and voiceover AI", "url": "https://play.ht"},
+            {"name": "ElevenLabs", "desc": "Best realism and emotional control", "url": "https://elevenlabs.io"},
+            {"name": "Inworld AI", "desc": "Best for real-time voice agents", "url": "https://inworld.ai"},
+            {"name": "Murf AI", "desc": "Best for enterprise and studio-quality voice", "url": "https://murf.ai"},
         ]
     },
     "translation": {
@@ -114,25 +114,25 @@ LLM_DATA = {
     "entertainment": {
         "name": "🎮 Entertainment",
         "tools": [
-            {"name": "Character.AI", "desc": "Roleplay with AI characters", "url": "https://character.ai"},
-            {"name": "Janitor AI", "desc": "Creative roleplay AI", "url": "https://janitorai.com"},
-            {"name": "NovelAI", "desc": "AI storytelling and anime art", "url": "https://novelai.net"},
+            {"name": "Sudowrite", "desc": "Best for fiction storytelling", "url": "https://sudowrite.com"},
+            {"name": "NovelAI", "desc": "Best for genre fiction and fan-fiction", "url": "https://novelai.net"},
+            {"name": "AI Dungeon", "desc": "Best for interactive AI games", "url": "https://aidungeon.com"},
         ]
     },
     "security": {
         "name": "🔒 Cybersecurity",
         "tools": [
-            {"name": "CrowdStrike Falcon", "desc": "Enterprise threat detection", "url": "https://crowdstrike.com"},
-            {"name": "Microsoft Security Copilot", "desc": "AI-powered security operations", "url": "https://microsoft.com/security"},
-            {"name": "Snyk", "desc": "Code vulnerability scanner", "url": "https://snyk.io"},
+            {"name": "Cycode", "desc": "Best AI-native application security", "url": "https://cycode.com"},
+            {"name": "Snyk", "desc": "Best developer-first code security", "url": "https://snyk.io"},
+            {"name": "Checkmarx One", "desc": "Best enterprise application security", "url": "https://checkmarx.com"},
         ]
     },
     "productivity": {
         "name": "⚡ Productivity",
         "tools": [
-            {"name": "Notion AI", "desc": "Notes and AI all in one place", "url": "https://notion.so"},
-            {"name": "NotebookLM", "desc": "Summarize PDFs with AI", "url": "https://notebooklm.google.com"},
-            {"name": "Motion", "desc": "AI calendar and task manager", "url": "https://usemotion.com"},
+            {"name": "Zapier Agents + Claude", "desc": "Best for automation and task management", "url": "https://zapier.com"},
+            {"name": "ChatGPT", "desc": "Best for general use and daily tasks", "url": "https://chat.openai.com"},
+            {"name": "Perplexity + Notion AI", "desc": "Best for research and knowledge management", "url": "https://notion.so"},
         ]
     },
 }
